@@ -1,0 +1,44 @@
+{
+  "name": "redux-reddit-api",
+  "version": "1.0.0",
+  "description": "A Redux implementation of Reddit API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --content-base .",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znss1989/redux-reddit-api.git"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "react-router",
+    "reddit",
+    "async"
+  ],
+  "author": "Wu Lei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/znss1989/redux-reddit-api/issues"
+  },
+  "homepage": "https://github.com/znss1989/redux-reddit-api#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "http-server": "^0.9.0",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
